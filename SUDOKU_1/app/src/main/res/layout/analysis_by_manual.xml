@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <TextView
+        android:id="@+id/text_analysis_by_manual"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:background="#E91E63"
+        android:text="@string/let_us_analysis_by_manual"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:id="@+id/img_sudoku"
+        android:layout_width="174dp"
+        android:layout_height="172dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sample_sudoku" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <Button
+        android:id="@+id/back_button_analysis_from_manual"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/back_button_analysis"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/back_button_analysis_by_manual_to_home"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/back_button_home"
+        android:textSize="30sp" />
+</LinearLayout>

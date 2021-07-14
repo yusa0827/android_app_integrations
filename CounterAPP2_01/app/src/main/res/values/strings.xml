@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CounterAPP</string>
+    <string name="Count">Count</string>
+    <string name="Reset">Reset</string>
+    <string name="TextView_counter">0</string>
+</resources>

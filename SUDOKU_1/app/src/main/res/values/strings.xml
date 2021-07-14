@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sudoku_1</string>
+    <string name="SUDOKU">SUDOKU</string>
+    <string name="training">TRAINING</string>
+    <string name="analysis">ANALYSIS</string>
+    <string name="return_home">return_home</string>
+    <string name="wanna_analysis_">Wanna Analysis ??</string>
+    <string name="which_to_analysis">Which Choice??</string>
+    <string name="input_by_manual">By Manual</string>
+    <string name="inout_by_Automatic">By Automatic</string>
+    <string name="let_us_analysis_by_manual">Let\'s input by manual</string>
+    <string name="back_button_analysis">back to which to analysis</string>
+    <string name="back_button_home">back home</string>
+    <string name="let_us_analysis_by_automatic">Let\'s input by automatic</string>
+    <string name="work_camera">Let\'s work camera to input</string>
+</resources>

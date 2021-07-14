@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sudoku_1</string>
+    <string name="SUDOKU">SUDOKU</string>
+    <string name="training">TRAINING</string>
+    <string name="analysis">ANALYSIS</string>
+    <string name="return_home">return_home</string>
+</resources>

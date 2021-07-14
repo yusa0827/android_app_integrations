@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/textView_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_sudoku"
+        android:textSize="15sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/button_play_with_demo"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:background="#e5fbfa"
+        android:text="@string/button_play_with_demo" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/button_play_with_manual"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:background="#e5fbfa"
+        android:text="@string/button_play_with_manual" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/button_play_with_auto"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:background="#e5fbfa"
+        android:text="@string/button_play_with_auto" />
+
+</LinearLayout>

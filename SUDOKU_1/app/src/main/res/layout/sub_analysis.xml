@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/sub_analysis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="42dp"
+        android:background="#E91E63"
+        android:text="@string/analysis"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <ImageView
+        android:id="@+id/img_sudoku"
+        android:layout_width="305dp"
+        android:layout_height="309dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sample_sudoku" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <Button
+        android:id="@+id/button_analysis"
+        android:layout_width="405dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:text="@string/wanna_analysis_"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <Button
+        android:id="@+id/button_sub_analysis_to_main"
+        android:layout_width="411dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:text="@string/return_home"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

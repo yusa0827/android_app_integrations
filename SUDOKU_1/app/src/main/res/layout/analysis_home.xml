@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <TextView
+        android:id="@+id/analysis_home"
+        android:layout_width="305dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+
+        android:background="#E91E63"
+        android:text="@string/which_to_analysis"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <Button
+        android:id="@+id/analysis_to_manual"
+        android:layout_width="319dp"
+        android:layout_height="92dp"
+        android:layout_gravity="center"
+        android:text="@string/input_by_manual"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <Button
+        android:id="@+id/analysis_to_automatic"
+        android:layout_width="325dp"
+        android:layout_height="139dp"
+        android:layout_gravity="center"
+        android:text="@string/inout_by_Automatic"
+        android:textSize="30sp" />
+</LinearLayout>

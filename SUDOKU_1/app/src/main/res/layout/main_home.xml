@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/main_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="42dp"
+        android:background="#E91E63"
+        android:text="@string/SUDOKU"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/main_to_training"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/training"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/main_to_analysis"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/analysis"
+        android:textSize="30sp"/>
+
+
+</LinearLayout>

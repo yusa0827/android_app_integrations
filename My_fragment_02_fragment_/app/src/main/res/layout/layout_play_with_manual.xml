@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:id="@+id/textView_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_sudoku_manual"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:id="@+id/fragment_button_sudoku"
+        android:layout_width="match_parent"
+        android:layout_height="528dp">
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/button_manual_to_sudoku_home"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="#e5fbfa"
+        android:gravity="center"
+        android:text="@string/button_manual_to_sudoku_home"/>
+
+    <RelativeLayout
+        android:id="@+id/fragment_container_support"
+        android:layout_width="match_parent"
+        android:layout_height="99dp">
+
+    </RelativeLayout>
+
+</LinearLayout>

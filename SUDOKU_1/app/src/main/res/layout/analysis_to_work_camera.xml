@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <TextView
+        android:id="@+id/text_analysis_by_automatic"
+        android:layout_width="336dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:background="#E91E63"
+        android:text="@string/let_us_analysis_by_automatic"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:id="@+id/img_sudoku_1"
+        android:layout_width="315dp"
+        android:layout_height="277dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sample_sudoku" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <ImageView
+        android:id="@+id/img_sudoku_2"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sample_sudoku" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <Button
+        android:id="@+id/work_camera_for_sudoku"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/work_camera"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <Button
+        android:id="@+id/back_button_to_work_camera_for_sudoku"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/back_button_home"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
